@@ -1,0 +1,32 @@
+# Adwaita Dark — Alacritty Terminal Theme
+[colors.primary]
+background = "#1d1d1d"
+foreground = "#ffffff"
+
+[colors.cursor]
+text = "#1d1d1d"
+cursor = "#3584e4"
+
+[colors.selection]
+text = "#ffffff"
+background = "#2b4e7b"
+
+[colors.normal]
+black   = "#1d1d1d"
+red     = "#c01c28"
+green   = "#2ec27e"
+yellow  = "#e5a50a"
+blue    = "#1c71d8"
+magenta = "#9141ac"
+cyan    = "#12a3b4"
+white   = "#c0bfbc"
+
+[colors.bright]
+black   = "#5c6370"
+red     = "#ed333b"
+green   = "#57e389"
+yellow  = "#f8e45c"
+blue    = "#4a8fd8"
+magenta = "#c061cb"
+cyan    = "#4fd2e4"
+white   = "#ffffff"

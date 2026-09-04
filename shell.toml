@@ -1,0 +1,22 @@
+# Adwaita Dark — Shell & Quickshell Configuration
+# Topbar customized to look like GNOME 50 Shell
+
+[topbar]
+font = "Adwaita"
+font_size = 14
+font_weight = "bold"
+height = 32
+clock_format = "%a %d %b  %H:%M"
+modules_radius = 14
+
+[menu]
+font = "Adwaita"
+font_size = 14
+
+[osd]
+font = "Adwaita"
+
+[notifications]
+font = "Adwaita"
+font_size = 12
+radius = 12
