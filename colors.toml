@@ -1,0 +1,49 @@
+mode = "dark"
+
+# ─────────────────────────────────────────────────────────────
+# Adwaita Dark — GNOME 50 / Libadwaita
+# Simulates the official Adwaita Dark palette from GNOME 50,
+# including exact terminal ANSI colors and UI accent shades.
+# ─────────────────────────────────────────────────────────────
+
+# Core UI
+accent     = "#3584e4"
+selection  = "#2b4e7b"
+muted      = "#5c6370"
+
+# Backgrounds (window-bg → view-bg → card-bg)
+background           = "#1d1d1d"
+dark_background      = "#141414"
+darker_background    = "#0d0d0d"
+lighter_background   = "#2d2d2d"
+
+# Foregrounds
+foreground        = "#ffffff"
+dark_foreground   = "#9a9996"
+light_foreground  = "#c0bfbc"
+bright_foreground = "#ffffff"
+
+# Cursor / selection
+cursor = "#3584e4"
+
+# ─── ANSI Terminal Colors (Adwaita Dark palette) ─────────────
+# Normal (0–7)
+red     = "#c01c28"
+green   = "#2ec27e"
+yellow  = "#e5a50a"
+blue    = "#1c71d8"
+magenta = "#9141ac"
+cyan    = "#12a3b4"
+brown   = "#865e3c"
+
+# Bright (8–15)
+bright_red     = "#ed333b"
+bright_yellow  = "#f8e45c"
+bright_green   = "#57e389"
+bright_cyan    = "#4fd2e4"
+bright_blue    = "#4a8fd8"
+bright_magenta = "#c061cb"
+
+# ─── Hyprland border colors ───────────────────────────────────
+hyprland_active_border   = "#3584e4"
+hyprland_inactive_border = "#3d3d3d"
