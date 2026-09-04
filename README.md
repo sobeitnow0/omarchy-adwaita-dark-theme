@@ -1,69 +1,69 @@
 # 🌑 Adwaita Dark — Omarchy 4.0 Theme
 
 > **GNOME 50 / Libadwaita Dark theme for Omarchy Linux.**  
-> Criado para trazer a experiência visual refinada e consistente do GNOME 50 para o Omarchy.
+> Built to bring the refined, consistent visual experience of GNOME 50 to Omarchy.
 
 ---
 
-## 💡 Sobre o Tema
+## 💡 About the Theme
 
-Este tema foi desenvolvido para **facilitar a adaptação ao Omarchy de quem está acostumado a usar o GNOME Adwaita Dark no seu dia a dia**.
+This theme was created to **ease the transition to Omarchy for users who are accustomed to using GNOME Adwaita Dark in their daily workflow**.
 
-Ele reproduz com exatidão as cores nativas do Libadwaita, o comportamento da barra superior do GNOME Shell, o esquema de cores dos terminais do GNOME e o acabamento arredondado dos elementos da interface.
+It faithfully reproduces native Libadwaita colors, GNOME Shell topbar aesthetics, GNOME terminal color schemes, and modern rounded interface finishes.
 
-![Preview Desktop](preview.png)
+![Desktop Preview](preview.png)
 
 ---
 
-## ✨ Recursos e Destaques
+## ✨ Features & Highlights
 
-- ** Topbar GNOME Shell (Quickshell)**: Barra superior compacta (`32px`), fonte global *Adwaita*, relógio centralizado em destaque e pílulas de status arredondadas com efeito hover Libadwaita.
-- **🎨 Paleta de Cores Libadwaita Oficial**: Base `#1d1d1d`, acento `#3584e4`, elementos `#242424` e seleção `#2b4e7b`.
-- **🖼️ 24 Wallpapers Oficiais do GNOME**: Coleção completa de wallpapers dark do GNOME 50 (`adwaita-d.jpg`, `amber.jpg`, `pills.jpg`, `blobs.png`, etc.).
-- **💻 Suporte Expandido a Terminais**:
+- **GNOME Shell Topbar (Quickshell)**: Compact topbar (`32px`), global **Adwaita Sans** font (size 14, bold topbar text), centered clock layout, and rounded Libadwaita hover pills.
+- **🎨 Official Libadwaita Color Palette**: `#1d1d1d` base background, `#3584e4` accent, `#242424` cards/popovers, `#2b4e7b` selection.
+- **🖼️ 24 Official GNOME Wallpapers**: Full collection of dark GNOME 50 wallpapers (`adwaita-d.jpg`, `amber.jpg`, `pills.jpg`, `blobs.png`, etc.).
+- **💻 Expanded Terminal & Tool Support**:
   - **Ghostty**: `ghostty.config`
   - **Alacritty**: `alacritty.toml`
   - **Foot**: `foot.ini`
-  - **Neovim**: Integração nativa com `adwaita.nvim` (`neovim.lua`)
-  - **VSCode**: Extensão `piousdeer.adwaita-theme` (`vscode.json`)
-- **⚙️ Ferramentas & Sistema**:
+  - **Neovim**: Native integration with `adwaita.nvim` (`neovim.lua`)
+  - **VSCode**: `piousdeer.adwaita-theme` extension configuration (`vscode.json`)
+- **⚙️ Desktop Components**:
   - **btop**: `btop.theme`
-  - **Dunst**: Notificações em balão estilo GNOME Shell (`dunst.conf`)
-  - **Rofi**: Launcher estilo busca do GNOME (`rofi.rasi`)
-  - **Quickshell**: Topbar GNOME Shell style e fonte global Adwaita (`shell.toml`)
-  - **GTK 3/4**: Overrides com variáveis Libadwaita nativas (`gtk.css`)
+  - **Dunst**: GNOME Shell notification popups (`dunst.conf`) with `Adwaita Sans`
+  - **Rofi**: GNOME search-style application launcher (`rofi.rasi`) with `Adwaita Sans`
+  - **Quickshell**: Shell theme and global `Adwaita Sans` font (`shell.toml`)
+  - **GTK 3/4**: Overrides using native Libadwaita CSS variables (`gtk.css`)
 
 ---
 
-## 🎨 Paleta de Cores
+## 🎨 Color Palette
 
-| Elemento | Hex | Exemplo |
+| Element | Hex | Description |
 | :--- | :---: | :--- |
-| **Accent (Azul GNOME)** | `#3584e4` | Acento principal da UI e foco |
-| **Window Background** | `#1d1d1d` | Fundo principal de janelas |
-| **Card / Dialog Background** | `#242424` | Popovers, cards e notificações |
-| **Terminal / Dark View** | `#141414` | Fundo escuro de visualização |
-| **Selection** | `#2b4e7b` | Seleção de texto e listas |
-| **Foreground / Texto** | `#ffffff` | Texto primário |
-| **Muted Text** | `#9a9996` | Texto secundário / desativado |
+| **Accent (GNOME Blue)** | `#3584e4` | Primary brand accent and focus state |
+| **Window Background** | `#1d1d1d` | Main window background |
+| **Card / Dialog Background** | `#242424` | Popovers, cards, and notifications |
+| **Terminal / Dark View** | `#141414` | Dark view background |
+| **Selection** | `#2b4e7b` | Text and list selection |
+| **Foreground / Text** | `#ffffff` | Primary text |
+| **Muted Text** | `#9a9996` | Secondary / disabled text |
 
 ---
 
-## 🚀 Instalação Rápida no Omarchy
+## 🚀 Quick Installation on Omarchy
 
-1. Copie a URL do repositório:
+1. Copy the repository URL:
    ```bash
    https://github.com/sobeitnow0/omarchy-adwaita-dark-theme
    ```
-2. Abra o menu do Omarchy (`Super + Espaço`).
-3. Selecione **Install > Style > Theme**.
-4. Cole a URL e pressione `Enter`.
+2. Open the Omarchy menu (`Super + Space`).
+3. Select **Install > Style > Theme**.
+4. Paste the URL and press `Enter`.
 
-### 🔄 Como Remover
-No menu do Omarchy (`Super + Espaço`), selecione **Remove > Theme** e escolha `adwaita-dark`.
+### 🔄 How to Remove
+In the Omarchy menu (`Super + Space`), select **Remove > Theme** and choose `adwaita-dark`.
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Distribuído sob a licença MIT. Veja [`LICENSE`](LICENSE) para mais detalhes.
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for more details.
